@@ -1,0 +1,25 @@
+#######################################
+#     Irreparable Items Config        #
+#######################################
+# Esta sección contiene configuraciones relacionadas con los ítems que no pueden ser reparados.
+
+irreparable-names:
+  # Lista de nombres en la descripción que indican ítems irreparables.
+  - "&9&oIrreparable"
+  - "&9&oUnrepairable"
+
+# Mensaje enviado al jugador cuando se cancela la reparación de un ítem irreparable.
+irreparable-cancel-message: "&c¡Este ítem no se puede reparar!"
+
+irreparable-command-help:
+  - ""
+  - "&d&lIrreparable Command &7- &f(Help Syntax) &b(/irreparable <...>)"
+  - " &f● &dreload&7, &rReload the configuration."
+  - " &f● &dnamelist&7, &fDisplays the irreparable names."
+  - " &f● &drepairable&7, &fMakes the item repairable."
+  - " &f● &dunrepairable <index>&7, &fMakes the item irreparable."
+  - " "
+irreparable-name-list: "&dIrreparable Names&7: &f"
+
+irreparable-repairable: "&a!Has convertido en reparable este item¡"
+irreparable-unrepairable: "&a!Has convertido este item en unrepairable¡"
